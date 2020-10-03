@@ -3,8 +3,33 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3516ab6-57a6-4ba1-823c-8d63816ef103" name="Default Changelist" comment="" />
+    <list default="true" id="c3516ab6-57a6-4ba1-823c-8d63816ef103" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/htmlaer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.html" beforeDir="false" afterPath="$PROJECT_DIR$/Save.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,13 +38,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1iBPbb5s4wvoEYReYDGZ936Zy30" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,6 +69,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Паша\Desktop\Sibdev_task" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,17 +82,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601378083846</updated>
-      <workItem from="1601378084897" duration="14023000" />
+      <workItem from="1601378084897" duration="14229000" />
+      <workItem from="1601430712147" duration="25302000" />
+      <workItem from="1601475027496" duration="4637000" />
+      <workItem from="1601514542616" duration="3969000" />
+      <workItem from="1601691541733" duration="17382000" />
+      <workItem from="1601729101973" duration="1627000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="676" y="249" key="FileChooserDialogImpl" timestamp="1601717645816">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="676" y="249" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601717645816" />
+    <state x="835" y="416" key="Github.ShareDialog" timestamp="1601395299029">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="835" y="416" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601395299029" />
+    <state x="782" y="224" key="Github.UntrackedFilesDialog" timestamp="1601395310524">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="782" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601395310524" />
     <state x="920" y="166" key="SettingsEditor" timestamp="1601379740089">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="920" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601379740089" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601395321438">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601395321438" />
   </component>
 </project>
