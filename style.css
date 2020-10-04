@@ -19,6 +19,11 @@ body {
 .sidebar {
     flex: 1 1 240px;
     position: relative;
+    transition: 200ms ease-in;
+}
+
+.sidebar.active{
+    flex: 1 1 400px;
 }
 
 .sidebar__container {
@@ -55,15 +60,13 @@ body {
     display: none;
 }
 
-.sidebar__items-close {
+.sidebar__items {
     margin-top: 41px;
+    transition: 200ms ease-in;
 }
 
-.sidebar__items-open{
-    position: absolute;
-    margin-left: -30px;
-    top: 15%;
-    height: 0;
+.sidebar__items.activeItems span{
+    display: inline;
 }
 
 .items__list{
@@ -99,14 +102,16 @@ body {
 
 .content__header {
     max-width: 1080px;
-    font-family: "Open Sans";
-    font-size: 28px;
-    font-weight: 600;
+
+
+
     margin-left: 50px;
 }
 
 .header__label{
-
+    font-weight: 600;
+    font-family: "Open Sans";
+    font-size: 28px;
 }
 
 #burgerMenu{
@@ -165,9 +170,18 @@ body {
 .tickets__container > div{
     display: flex;
     justify-content: space-between;
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
+
+.tickets__container > div:hover{
+    box-sizing: border-box;
+    border: 1px solid crimson;
+
 }
 
 .tickets__content {
+    padding-left: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -235,11 +249,20 @@ body {
         display: none;
     }
 
+    .sidebar__name.activeHeader{
+        display: inline;
+    }
+
+    .sidebar__items.active{
+        flex: 2 1 340px;
+    }
+
     .items__list > li > span{
         display: none;
     }
     .items__list > li > img{
         padding-left: 35px;
+        transition: 200ms ease-in;
     }
 
     .content__header{
@@ -261,6 +284,11 @@ body {
         top: 6.5%;
         left: 10%;
         z-index: 2000;
+        transition: 200ms ease-in;
+    }
+
+    #burgerMenu.activeBurger{
+        left: 25%;
     }
 
     .content__input{
@@ -287,6 +315,10 @@ body {
 }
 
 @media (max-width: 768px) {
+    .sidebar.active{
+        flex: 1 1 450px
+    }
+
     .sidebar__header {
         justify-content: flex-start;
         margin-left: 30px;
@@ -296,6 +328,14 @@ body {
     .sidebar__logo img{
         width: 24px;
         height: 24px;
+    }
+
+    .items__list .itemActive img{
+        padding-left: 10px;
+    }
+
+    .items__list > li > span{
+        font-size: 13px;
     }
 
     #burgerMenu{
@@ -341,6 +381,9 @@ body {
 }
 
 @media (max-width: 605px) {
+    .sidebar.active{
+        flex: 1 1 450px
+    }
     .sidebar__header {
         justify-content: flex-start;
         margin-left: 15px;
@@ -374,10 +417,49 @@ body {
 
 @media (max-width: 450px) {
     .sidebar{
+        overflow: hidden;
+        margin-left: -80px;
+    }
+
+    .sidebar.active{
+        margin-left: 0;
+    }
+
+    .sidebar__header{
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+
+    .sidebar__name {
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .items__list .itemActive img{
         display: none;
     }
+
+    .items__list .itemActive span{
+        padding-left: 5px;
+        margin-left: 5px;
+    }
+
     .content__input input {
-        width: 75%;
+        width: 85%;
+        padding: 12px 0 12px 3px;
+    }
+    .content__input input::placeholder{
+        font-size: 12px;
+    }
+    .content__input img{
+        display: none;
+    }
+    .header__label{
+        font-weight: 600;
+        font-family: "Open Sans";
+        font-size: 20px;
     }
     #burgerMenu{
         left: 4%;
@@ -385,9 +467,17 @@ body {
     .content__input img{
         left: 18.5%
     }
+
+    .tickets__img img{
+        width: 89px;
+    }
 }
 @media (max-width: 340px){
     #burgerMenu{
-        left: 10px;
+        left: 1%;
+        top: 5.3%;
+    }
+    .content{
+        margin: 0 4px 0 23px
     }
 }

@@ -22,10 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3516ab6-57a6-4ba1-823c-8d63816ef103" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/htmlaer.html" afterDir="false" />
+    <list default="true" id="c3516ab6-57a6-4ba1-823c-8d63816ef103" name="Default Changelist" comment="initialCommit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.html" beforeDir="false" afterPath="$PROJECT_DIR$/Save.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -66,6 +64,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -87,8 +86,17 @@
       <workItem from="1601475027496" duration="4637000" />
       <workItem from="1601514542616" duration="3969000" />
       <workItem from="1601691541733" duration="17382000" />
-      <workItem from="1601729101973" duration="1627000" />
+      <workItem from="1601729101973" duration="1831000" />
+      <workItem from="1601776701705" duration="12593000" />
     </task>
+    <task id="LOCAL-00001" summary="initialCommit">
+      <created>1601734834345</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601734834345</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +113,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initialCommit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initialCommit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="676" y="249" key="FileChooserDialogImpl" timestamp="1601717645816">
@@ -123,9 +135,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="920" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601379740089" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601395321438">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601734862889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601395321438" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601734862889" />
+    <state x="616" y="235" key="run.anything.popup" timestamp="1601781392261">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="235" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601781392261" />
   </component>
 </project>

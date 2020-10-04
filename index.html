@@ -11,15 +11,15 @@
 </head>
 <body>
 <div class="wrapper">
-    <section class="sidebar">
+    <section id="sidebar" class="sidebar">
         <div class="sidebar__container">
             <div class="sidebar__header">
                 <div class="sidebar__logo">
                     <img src="images/coupon%201.svg" alt="Logo" />
                 </div>
-                <span class="sidebar__name">BECO</span>
+                <span id="sidebarHeader" class="sidebar__name">BECO</span>
             </div>
-            <div  class="sidebar__items-close">
+            <div  class="sidebar__items">
                 <ul class="items__list">
                     <li id="catalog" class="item__catalog">
                         <img src="./images/icons/default/catalog.svg" alt="CatalogImg">
@@ -48,7 +48,7 @@
     <section class="content">
         <div class="content__container">
                 <div class="content__header">
-                    <img id="burgerMenu" src="images/icons/menu/burger_menu.svg" alt="BurgerMenu">
+                    <img onclick="show()" id="burgerMenu" src="images/icons/menu/burger_menu.svg" alt="BurgerMenu">
                     <span id="contentHeader" class="header__label">Развлечения</span>
                 </div>
                 <div class="content__input">
